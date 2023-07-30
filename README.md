@@ -23,7 +23,7 @@ The Lagrangian of this system:
 ```math
 L=\frac12 m_3 ((\dot{x})^2 + (\dot{y})^2 + 2x\dot{y}\omega - 2\dot{x}y\omega + \omega^2(x^2+y^2)) - G \frac{m_3 m_1}{p_1} - G \frac{m_3 m_2}{p_2}.
 ```
-Using the Lagrange equation of the second kind
+Lagrange equation of the second kind
 ```math
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = 0.
 ```
