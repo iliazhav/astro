@@ -10,7 +10,7 @@ A binary star system is a system consisting of two gravitationally bound stars t
 
 <img src="https://github.com/iliazhav/astro/blob/main/pictures/Motion2D1.jpg" width="50%" height="50%">
 
-Taking into account the classical concepts of the 3-body problem and using the theorems of theoretical mechanics (Kepler's laws, Coriolis force), it is possible to create a system of differential equations of motion for each component of the system:
+Taking into account the classical concepts of the 3-body problem and using the theorems of theoretical mechanics (Kepler's laws, Coriolis force), it is possible to create a system of differential equations of motion for smallest component of the system:
 
 ```math
 \begin{cases}
