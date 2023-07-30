@@ -8,8 +8,8 @@ Taking into account the classical concepts of the 3-body problem and using the t
 
 ```math
 \begin{cases}
-\ddot{x} = 2\dot{y} + x - \displaystyle\frac{(1-\mu)(x+\mu)}{p_1^3} - \frac{\mu (x-(1-\mu)}{p_2^3},\vspace{1mm}\\
-\ddot{y} = -2\dot{x} + y - \displaystyle\frac{(1-\mu)y}{p_1^3} - \frac{\mu y}{p_2^3},\vspace{1mm}\\
+\ddot{x} = 2\dot{y} + x - \displaystyle\frac{(1-\mu)(x+\mu)}{p_1^3} - \frac{\mu (x-(1-\mu)}{p_2^3},
+\ddot{y} = -2\dot{x} + y - \displaystyle\frac{(1-\mu)y}{p_1^3} - \frac{\mu y}{p_2^3},
 \ddot{z} = -\displaystyle\frac{(2\pi)^2(1-\mu)z}{p_1^3}-\displaystyle\frac{(2\pi)^2\mu z}{p_2^3}.
 \end{cases}
 ```
