@@ -13,4 +13,4 @@ Taking into account the classical concepts of the 3-body problem and using the t
 \ddot{z} = -\displaystyle\frac{(2\pi)^2(1-\mu)z}{p_1^3}-\displaystyle\frac{(2\pi)^2\mu z}{p_2^3},
 \end{cases}
 ```
-where $`x`$, $`y`$, $`z`$ --- coordinates of each particle, $`mu`$ --- the ratio of stars' masses, $`p_1`$ and $`p_2`$ --- distances to each star.
+where $`x`$, $`y`$, $`z`$ - coordinates of each particle, $`\mu`$ - the ratio of stars' masses, $`p_1`$ and $`p_2`$ - distances to each star.
