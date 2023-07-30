@@ -38,3 +38,5 @@ Taking into account the classical concepts of the 3-body problem and using the t
 \end{cases}
 ```
 where $`x`$, $`y`$, $`z`$ - coordinates of each particle, $`\mu`$ - the ratio of stars' masses, $`p_1`$ and $`p_2`$ - ratio of masses.
+
+This method uses gas-dynamic equations in Lagrangian variables and does not require the introduction of a difference grid [6].
