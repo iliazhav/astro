@@ -39,4 +39,8 @@ Taking into account the classical concepts of the 3-body problem and using the t
 ```
 where $`x`$, $`y`$, $`z`$ - coordinates of each particle, $`\mu`$ - the ratio of stars' masses, $`p_1`$ and $`p_2`$ - ratio of masses.
 
+<b>Bsics of SPH Method</b>
+
+<img src="https://github.com/iliazhav/astro/blob/main/pictures/BigRoche.jpg" width="50%" height="50%">
+
 This method uses gas-dynamic equations in Lagrangian variables and does not require the introduction of a difference grid [6].
