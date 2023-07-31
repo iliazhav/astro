@@ -86,3 +86,7 @@ The energy equation in the SPH formalism:
 \frac{\mathrm{d} \epsilon_{j}}{\mathrm{~d} t} =\frac{P_{j}}{\rho_{j}^{2}} \frac{\mathrm{d } \rho_{j}}{\mathrm{~d} t} =\frac{P_{j}}{\rho_{j}^{2}} \sum_{i} m_{i}\left(\mathbf {v}_{j}-\mathbf{v}_{i}\right) \cdot \nabla_{i} W_{j i}.
 \end{aligned}
 ```
+The mutual attraction of particles (self-gravity) in the SPH method can be taken into account. To do this, it is necessary to introduce an additional term $`\boldsymbol{f}^{\text {grav }}`$, which will describe the gravitational attraction of each particle to the rest:
+```math
+\frac{d \boldsymbol{v}_{a}}{d t}=\boldsymbol{f}^{\text {hydro }}+\boldsymbol{f}^{\text {grav }}.
+```
