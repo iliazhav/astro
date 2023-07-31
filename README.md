@@ -102,3 +102,5 @@ During testing, various methods for the numerical solution of differential equat
 \vec{y_{n+1}} = \vec{y_n} + \frac h6 (\vec{k_1} + \vec{k_2} + \vec{k_3} + \vec{k_4}),
 ```
 where $`y_i`$, $`k_i`$ are vectors.
+
+Let there be $n$ particles in the computational domain at the last cycle. The SPH method, which obliges to consider $`\displaystyle n(n-1)`$ combinations, leads to the complexity of the algorithm $`O(n^2)`$.
