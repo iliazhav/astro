@@ -41,6 +41,6 @@ where $`x`$, $`y`$, $`z`$ - coordinates of each particle, $`\mu`$ - the ratio of
 
 <b>Bsics of SPH Method</b>
 
-<img src="https://github.com/iliazhav/astro/blob/main/pictures/BigRoche.eps" width="50%" height="50%">
+<img src="https://github.com/iliazhav/astro/blob/main/pictures/BigRoche.png" width="50%" height="50%">
 
 This method uses gas-dynamic equations in Lagrangian variables and does not require the introduction of a difference grid [6].
