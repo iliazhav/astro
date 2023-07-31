@@ -104,3 +104,7 @@ During testing, various methods for the numerical solution of differential equat
 where $`y_i`$, $`k_i`$ are vectors.
 
 Let there be $n$ particles in the computational domain at the last cycle. The SPH method, which obliges to consider $`\displaystyle n(n-1)`$ combinations, leads to the complexity of the algorithm $`O(n^2)`$. In this work, calculations were carried out on one node in several threads, which significantly reduced the program execution time. For example, the processing time of a model with a maximum number of particles equal to 500 was 56 seconds on one thread, and 5 seconds on 18 threads.
+
+<img src="https://github.com/iliazhav/astro/blob/main/pictures/proj1.png" width="30%" height="30%">
+
+Ilia Z.
