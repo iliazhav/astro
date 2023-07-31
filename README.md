@@ -94,3 +94,11 @@ The mutual attraction of particles (self-gravity) in the SPH method can be taken
 ```math
 \frac{d \boldsymbol{v}_{a}}{d t}=\boldsymbol{f}^{\text {hydro }}+\boldsymbol{f}^{\text {grav }}.
 ```
+
+<b>Computing</b>
+
+During testing, various methods for the numerical solution of differential equations were tested. The use of the fourth-order Runge-Kutta method made it possible to avoid the rapid accumulation of errors in the region of self-intersection of trajectories. The iterative process for the method is as follows:
+```math
+\vec{y_{n+1}} = \vec{y_n} + \frac h6 (\vec{k_1} + \vec{k_2} + \vec{k_3} + \vec{k_4}),
+```
+where $`y_i`$, $`k_i`$ are vectors.
