@@ -38,6 +38,7 @@ Taking into account the classical concepts of the 3-body problem and using the t
 \end{cases}
 ```
 where $`x`$, $`y`$, $`z`$ - coordinates of each particle, $`\mu`$ - the ratio of stars' masses, $`p_1`$ and $`p_2`$ - ratio of masses.
+The ballistic approximation of such a problem makes it possible to estimate the approximate size and location of the region of maximum luminosity and to determine the phases of the eclipse.
 
 <b>Basics of SPH Method</b>
 
