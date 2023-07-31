@@ -72,6 +72,10 @@ where the index $`i`$ determines the number of the particle.
 
 The following relations were also obtained in the work:
 
+Density equation:
+```math
+\rho_{j} &=\sum_{i} m_{i} W\left(\mathbf{r}_{j}-\mathbf{r}_{i}, h\right) =\sum_{i} m_{i} W_{j i}.
+```
 Momentum equation: 
 ```math
 \frac{d \boldsymbol{v_{i}}}{d t}=-\sum_{j} m_{j}\left(\frac{P_{j}}{\rho_{j}^{2}}+\frac{P_{i}}{\rho_{i}^{2}}\right) \boldsymbol{\nabla_{i}} W_{i j}.
