@@ -80,3 +80,9 @@ The pressure force acting from one particle to another is expressed as
 ```math
 \boldsymbol{F}_{i j}=m_{i} m_{j}\left(\frac{P_{i}}{\rho_{i}^{2}}+\frac{P_{j}}{ \rho_{j}^{2}}\right)\left(\mathbf{r}_{i}-\mathbf{r}_{j}\right) W^{\prime}(r, h) / r.
 ```
+The energy equation in the SPH formalism:
+```math
+\begin{aligned}
+\frac{\mathrm{d} \epsilon_{j}}{\mathrm{~d} t} =\frac{P_{j}}{\rho_{j}^{2}} \frac{\mathrm{d } \rho_{j}}{\mathrm{~d} t} =\frac{P_{j}}{\rho_{j}^{2}} \sum_{i} m_{i}\left(\mathbf {v}_{j}-\mathbf{v}_{i}\right) \cdot \nabla_{i} W_{j i}.
+\end{aligned}
+```
