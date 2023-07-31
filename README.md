@@ -48,6 +48,10 @@ This method uses gas-dynamic equations in Lagrangian variables and does not requ
 Consider the identity
 
 ```math
+f(r) = \int\limits_V f(r^') \delta(r - r^')dr^',
+```
+
+```math
 f(\vec{r}) = \int\limits_V f(\vec{r}^') \delta(\vec{r} - \vec{r}^')d\vec{r}^',
 ```
 where $`f (\vec{r})`$ is some scalar function defined in a three-dimensional coordinate system, $`\delta(\vec{r})`$ is the Dirac delta function, and $`\vec{r} ^'`$ - dummy variable, which is defined in volume $`V`$, $`\vec{r}`$ - coordinate.
