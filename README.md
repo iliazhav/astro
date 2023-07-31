@@ -74,7 +74,7 @@ The following relations were also obtained in the work:
 
 Density equation:
 ```math
-\rho_{j} &=\sum_{i} m_{i} W\left(\mathbf{r}_{j}-\mathbf{r}_{i}, h\right) =\sum_{i} m_{i} W_{j i}.
+\rho_{j}=\sum_{i} m_{i} W\left(\mathbf{r}_{j}-\mathbf{r}_{i}, h\right) =\sum_{i} m_{i} W_{j i}.
 ```
 Momentum equation: 
 ```math
