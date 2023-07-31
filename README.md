@@ -11,9 +11,7 @@ A binary star system is a system consisting of two gravitationally bound stars t
 Let's introduce a coordinate system for components with masses $`m_1`$ and $`m_2`$. We will choose the center of reference at the center of mass of two stars. We write down the potential associated with the gravitational fields of the components and the centrifugal force:
 
 ```math
-\[
-\Phi = -\frac{Gm_1}{p_1} - \frac{Gm_2}{p_2} - \frac12 \omega^2(x^2 + y^2),
-\]
+Phi = -\frac{Gm_1}{p_1} - \frac{Gm_2}{p_2} - \frac12 \omega^2(x^2 + y^2),
 ```
 where $`p_1 = \sqrt{(x - a_1)^2 + y^2 + z^2}`$, $`p_1 = \sqrt{(x - a_2)^2+y^2+z^2}`$, $`\omega`$ - rotation frequency, $`a_1`$ and $`a_2`$ - distances from stars to the center of mass.
 
@@ -49,7 +47,7 @@ Let's complicate the model - let's introduce the interaction between individual 
 This method uses gas-dynamic equations in Lagrangian variables and does not require the introduction of a difference grid.
 Consider the identity
 ```math
-f(\vec{r}) = \int\limits_V f(\vec{r}^) \delta(\vec{r} - \vec{r}^)d\vec{r}^,
+f(\vec{r}) = \int\limits_V f(\vec{r}^,) \delta(\vec{r} - \vec{r}^,)d\vec{r}^,,
 ```
 where $`f (\vec{r})`$ is some scalar function defined in a three-dimensional coordinate system, $`\delta(\vec{r})`$ is the Dirac delta function, and $`\vec{r} ^'`$ - dummy variable, which is defined in volume $`V`$, $`\vec{r}`$ - coordinate.
 
@@ -63,10 +61,10 @@ smoothing length $`h`$, such that
 for normalization we require
 
 ```math
-\int\limits_V W(\vec{r}, h) d\vec{r}^' = 1.
+\int\limits_V W(\vec{r}, h) d\vec{r}^, = 1.
 ```
 
-In passing from a continuous to a discrete representation, imagine that the computational domain is filled with particles with coordinates $`\boldsymbol{r}_{i}`$ and masses $`m = \rho (\vec{r}^')d\vec{r}^ '`$. Then for $`f`$ the integral can be replaced by the sum
+In passing from a continuous to a discrete representation, imagine that the computational domain is filled with particles with coordinates $`\boldsymbol{r}_{i}`$ and masses $`m = \rho (\vec{r}^,)d\vec{r}^,`$. Then for $`f`$ the integral can be replaced by the sum
 ```math
 f(\mathbf{r})\approx\sum_{i} m_{i} \frac{f_{i}}{\rho_{i}} W\left(\mathbf{r}-\mathbf{r}_ {i}, h\right),
 ```
