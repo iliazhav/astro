@@ -76,3 +76,7 @@ Momentum equation:
 ```math
 \frac{d \boldsymbol{v_{i}}}{d t}=-\sum_{j} m_{j}\left(\frac{P_{j}}{\rho_{j}^{2}}+\frac{P_{i}}{\rho_{i}^{2}}\right) \boldsymbol{\nabla_{i}} W_{i j}.
 ```
+The pressure force acting from one particle to another is expressed as
+```math
+\boldsymbol{F}_{i j}=m_{i} m_{j}\left(\frac{P_{i}}{\rho_{i}^{2}}+\frac{P_{j}}{ \rho_{j}^{2}}\right)\left(\mathbf{r}_{i}-\mathbf{r}_{j}\right) W^{\prime}(r, h) / r.
+```
