@@ -42,6 +42,30 @@ The ballistic approximation of such a problem makes it possible to estimate the 
 
 <b>Basics of SPH Method</b>
 
-<img src="https://github.com/iliazhav/astro/blob/main/pictures/BigRoche.png" width="50%" height="50%">
+Let's complicate the model - let's introduce the interaction between individual clumps of matter. We will emit particles from the Lagrange point $`L_1`$, which will replace the continuous field.
+
+<img src="https://github.com/iliazhav/astro/blob/main/pictures/BigRoche.png" width="30%" height="30%">
 
 This method uses gas-dynamic equations in Lagrangian variables and does not require the introduction of a difference grid.
+Consider the identity
+```math
+f(\vec{r}) = \int\limits_V f(\vec{r}^') \delta(\vec{r} - \vec{r}^')d\vec{r}^',
+\]
+```
+where $`f (\vec{r})`$ is some scalar function defined in a three-dimensional coordinate system, $`\delta(\vec{r})`$ is the Dirac delta function, and $`\vec{r} ^'`$ - dummy variable, which is defined in volume $`V`$, $`\vec{r}`$ - coordinate.
+
+One can generalize the delta function to the smoothing kernel $W$ with
+smoothing length $`h`$, such that
+```math
+\lim\limits_{h\rightarrow0} W(\vec{r}, h) = \delta(\vec{r}),
+```
+for normalization we require
+```math
+\int\limits_V W(\vec{r}, h) d\vec{r}^' = 1.
+```
+
+In passing from a continuous to a discrete representation, imagine that the computational domain is filled with particles with coordinates $`\boldsymbol{r}_{i}`$ and masses $`m = \rho (\vec{r}^')d\vec{r}^ '`$. Then for $`f`$ the integral can be replaced by the sum
+```math
+f(\mathbf{r})\approx\sum_{i} m_{i} \frac{f_{i}}{\rho_{i}} W\left(\mathbf{r}-\mathbf{r}_ {i}, h\right),
+```
+where the index $`i`$ determines the number of the particle.
