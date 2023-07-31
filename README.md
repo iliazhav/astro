@@ -46,6 +46,7 @@ Let's complicate the model - let's introduce the interaction between individual 
 
 This method uses gas-dynamic equations in Lagrangian variables and does not require the introduction of a difference grid.
 Consider the identity
+
 ```math
 f(\vec{r}) = \int\limits_V f(\vec{r}^') \delta(\vec{r} - \vec{r}^')d\vec{r}^',
 ```
@@ -53,10 +54,13 @@ where $`f (\vec{r})`$ is some scalar function defined in a three-dimensional coo
 
 One can generalize the delta function to the smoothing kernel $W$ with
 smoothing length $`h`$, such that
+
 ```math
 \lim\limits_{h\rightarrow0} W(\vec{r}, h) = \delta(\vec{r}),
 ```
+
 for normalization we require
+
 ```math
 \int\limits_V W(\vec{r}, h) d\vec{r}^' = 1.
 ```
