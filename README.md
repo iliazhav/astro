@@ -13,7 +13,7 @@ Let's introduce a coordinate system for components with masses $`m_1`$ and $`m_2
 ```math
 Phi = -\frac{Gm_1}{p_1} - \frac{Gm_2}{p_2} - \frac12 \omega^2(x^2 + y^2),
 ```
-where $`p_1 = \sqrt{(x - a_1)^2 + y^2 + z^2}`$, $`p_1 = \sqrt{(x - a_2)^2+y^2+z^2}`$, $`\omega`$ - rotation frequency, $`a_1`$ and $`a_2`$ - distances from stars to the center of mass.
+where $`$p_1 = \sqrt{(x - a_1)^2 + y^2 + z^2}$`$, $`p_1 = \sqrt{(x - a_2)^2+y^2+z^2}`$, $`\omega`$ - rotation frequency, $`a_1`$ and $`a_2`$ - distances from stars to the center of mass.
 
 <img src="https://github.com/iliazhav/astro/blob/main/pictures/Motion2D1.jpg" width="50%" height="50%">
 
